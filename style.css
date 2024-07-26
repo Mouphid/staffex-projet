@@ -1,0 +1,257 @@
+*{
+    position: relative; 
+    padding: 0px;
+    margin: 0px;
+    z-index: 5px;
+    position: 14px;
+    line-height: 25px;
+    color: white;
+}
+
+body{
+    overflow-x: hidden;
+    background-color:white;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   background-color: black;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   position: fixed;
+   height: 50px;
+   width: 96.7%;
+   border: solid 3px gray;
+   z-index: auto;
+
+  
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 25px;
+    margin: 10px;
+}
+
+.navbar ul li {
+    margin-right:  50px;
+    
+    
+}
+
+.navbar ul li a:hover {
+
+background-color: white;
+cursor: pointer;
+color: black;
+}
+
+.menu1{
+
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+}
+
+#background-video {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.letitre {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: end;
+    padding-top: 34%;
+    padding-right: 3%;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+.reglage {
+    padding-right: 14%
+}
+
+.menu1:before{
+    content: '';
+    position: absolute;
+    
+    left: 0;
+    bottom: 0;
+    height: 70%;
+    width: 100%;
+    background-color: #00000085;
+    
+}
+
+
+.menu2 {
+    
+    width: 100%;
+    background-color: black;
+    padding-top: 30px;
+    height: 200vh;
+    
+    
+    
+}
+
+.Les-para P{
+    line-height: 115%;
+}
+
+.var-menu2 {
+    padding-left: 18%;
+    font-size: 34px;
+}
+
+.pading-h1 {
+    padding-left: 7%;
+}
+
+
+.h1-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between ;
+    padding-top: 40px;
+    padding-right: 37%;
+    padding-left: 20%;
+    
+}
+
+.h1-p h5 {
+    color: greenyellow;
+}
+
+.Les-para{
+    line-height: 29;
+    font-size: 15px;
+    
+}
+
+.one-phrase{
+    margin-right: 4%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+.icon {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 14px;
+  
+}
+
+.btn-triangle {
+    display: flex;
+    justify-content: center;
+   cursor: pointer;
+
+}
+
+.im1{
+    margin-right: -3%;
+   
+}
+
+.triemenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    width: 194%;
+    
+    
+
+}
+
+.zone {
+    text-align: left;
+    border: solid 2px cornsilk;
+    padding: 1%;
+    
+}
+
+.zone h3  {
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+
+.zone p{
+    line-height: 130%;
+}
+
+.bt-n {
+    height: 40px;
+    width: 40px;
+    border: 2px solid color rgb(157, 185, 157);
+   
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: none;
+    
+    
+    
+}
+
+.my-icon {
+    fill: green;
+    padding:29px ;
+    
+
+}
+
+
+
+
+
+
